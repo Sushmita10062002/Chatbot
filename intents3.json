@@ -1,0 +1,37 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","hi", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","how is it doing?","hello chatbot","hi buddy!","what's up?"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?","hey!","hello","hi buddy","hi"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","I am leaving","Bye Bye", "See you Again","Ok bye","I was nice mwwt with you"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Sad to see you go :(","Talk to you later","Goodbye!","Bye buddy"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","You are very helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can tell you which products our company QueenBeauty offer", "We provide best service for beauty products"]
+        },
+        {"tag": "beauty_products",
+         "patterns": ["What Products do you offer", "What are your beauty products", "Give me a list of your beauty products", "List all beauty products offered", "Which products are available",
+         "I'd like to buy something", "what are your products?","what do you sell?","what do you recommend?","what are you selling?","I would like to purchase something from your shop?" ],
+         "responses": ["Beauty Cream, Skin Lightening Cream, Face Cream. Sunscreen, BB Cream, Skin Cleansing Cream, Barrier Cream and Collagen Cream are some of our products"]
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open","what are your hours","hours of operation","opening time"],
+         "responses": ["24/7"]
+        },
+        {
+         "tag": "company_and_assistant",
+         "patterns": ["what is your name","what should I call you","whats your name?","who are you?","Can you tell me your name?","tell me your name"],
+         "responses": ["hey, I am Beaut Assistant of Queen Beauty", "I'm Beaut the assistant of floarin","I'm Neural","You can call me Neural"]
+        }
+   ]
+}
